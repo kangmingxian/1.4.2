@@ -1,0 +1,36 @@
+/* pages/chaxun/chaxun.wxss */
+.container1 {
+  padding: 20rpx;
+  border-top: 1rpx solid #e5e5e5;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  border: 1rpx solid #e0e0e0;
+  border-radius: 10rpx;
+  box-shadow: 0 0 5rpx #e0e0e0;
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+}
+.header .plus {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+}
+
+.header .new-todo {
+  flex: 1;
+  font-size: 30rpx;
+}
+.btn3{
+  width: 100rpx;
+  border-radius: 98rpx;
+  background: #E6F3F9;
+  margin-top: 50rpx;
+}
+
+.message{
+  margin-top: 60rpx;
+  font-size:1em;
+}

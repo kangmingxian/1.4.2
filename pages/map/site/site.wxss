@@ -1,0 +1,21 @@
+/* pages/site/site.wxss */
+
+
+
+
+.containerm{width:100%;display:flex;flex-direction:column}
+.containerm .tips{width:100%;}
+.containerm .tips text{color:#999;font-size:12px;margin:10px 0;background:#eee;padding:3px 8px;border-radius: 3px;float:left;}
+
+.containerm image{width:100px;height:100px;margin:10px auto 30px;border-radius:5px;}
+.containerm .site-name{color:#333;font-size:16px;text-align:center;}
+.containerm .site-address{color:#666;font-size:14px;text-align:center;margin-top:5px;padding:0 20px}
+
+.containerm navigator{width:100%;}
+
+.containerm .goto{width:80%;height:42px;border-radius: 5px;color:#4188fe;border:1px solid #4188fe;text-align:center;background:#fff;margin:0 auto ;font-size:16px;}
+.containerm .site-foot{width:100%;display: flex;}
+.containerm .site-foot .share{width:60%;line-height:20px;float:left;border: none;background:#fff;text-align:right;padding:15px;box-sizing: border-box;font-size:16px;color:#333;}
+.containerm .site-foot .share::after{border: none;}
+.containerm .site-foot .return{width:40%;line-height:20px;text-align:left;padding:15px;box-sizing: border-box;border-left:1px solid #ccc;font-size:16px;color:#333;display:inline-block;}
+

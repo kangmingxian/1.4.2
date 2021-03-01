@@ -1,0 +1,32 @@
+<view class="table">
+<!-- <modal title="今日提醒" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+    <view>
+      <image class="image" src="../../images/image2.jpg" mode='aspectFill'></image>
+    </view>
+    <text class="at" decode="{{true}}"> <view></view> 
+     &emsp;可以查各个大学返校通知啦！快点击查询按钮试一试。
+</text>
+  </modal> -->
+  <view class="tr bg-w">
+    <view class="th">省份</view>
+    <view class="th">毕业年级</view>
+    <view class="th ">其他年级</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+    </view>
+  </block>
+</view>
+<!-- <view class="btn0">
+<button class='btn' bindtap="gotoCx">查询 <image src="/images/search1.png" class="img"></image> </button>
+<button class="btn" bindtap="gotoLog">关于</button>
+</view> -->
+<ad unit-id="adunit-b30866ea255ffb86" ad-type="grid" grid-opacity="0.8" grid-count="5" ad-theme="white"></ad>

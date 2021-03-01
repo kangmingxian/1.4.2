@@ -1,0 +1,54 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="sw"
+  height="300px">
+  <block wx:for="{{imgs}}">
+    <swiper-item>
+      <image mode="scaleToFill" src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="container1">
+<view class="header" bindtap="gotoChax">
+<image  class="plus" src="/images/search2.png" />
+<input class="new-todo" type="text"   placeholder='请输入大学名称如：西北工业大学' ></input>
+</view> 
+<ad unit-id="adunit-b54f5013db388ce5"></ad>
+<view class='grid'>
+    <view class='itemgrids'>
+     <navigator url='/pages/map/index/index' class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/map.png'></image>
+            <view class='itemgrid_label'>导航</view>
+        </navigator>
+        <navigator url='/pages/weather/index' class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/weather.png'></image>
+            <view class='itemgrid_label'>天气</view>
+        </navigator>
+        <navigator url='/pages/bim/index/index' class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/BIM.png'></image>
+            <view class='itemgrid_label'>体质指数</view>
+        </navigator>
+        <navigator url='/pages/calendar/calendar' class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/rili.png'></image>
+            <view class='itemgrid_label'>日历</view>
+        </navigator>
+        <navigator url='/pages/cal/cal/cal' class='itemgrid' hovor-class='itemgrid_active' >
+            <image class='itemgrid_icon' src='../../images/cal.png'></image>
+            <view class='itemgrid_label'>计算器</view>
+        </navigator>
+        
+        <navigator url='/pages/zhinan/zhinan' class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/cms.png'></image>
+            <view class='itemgrid_label'>指南针</view>
+        </navigator>
+       
+    </view>
+</view>
+</view>
+<view class="kefu-box">
+<button  open-type="contact" class="kefu-body">
+    <image class="img" src="/images/chat.png"></image>
+    <text class="q-tx">联系我们</text>
+</button>
+</view>
+
+

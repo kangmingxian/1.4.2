@@ -1,0 +1,20 @@
+<!--pages/thank/thank.wxml-->
+<view class="tk">
+<view><text class="title">致谢</text></view>
+<view>
+<text>\n感谢各位同学对本程序的支持，也感谢在本程序开发过程中提供建议的朋友们。特别感谢LYX对我长期以来的大力支持！本程序由KZN、LYX、DRL共同开发。 </text>
+</view>
+<view><text class="title">\n 说明</text></view>
+<view>
+<text>\n 收集各高校开学信息、放假信息（暂时无）供大家参考查阅。另外还有天气、日历、指南针、计算器、体质指数等小功能。</text>
+</view>
+<view><text class="title">\n 更新</text></view>
+<view>
+<view><text>\n 2020-4-30 查询功能
+2020-4-20 云数据库
+2020-4-14 弹窗功能
+2020-4-11 增加关于页面+随机生成句子
+2020-4-10 增加分享按钮
+2020-4-09 前端搭建 参考CSDN博主oys1341</text></view>
+</view>
+</view>

@@ -1,0 +1,30 @@
+
+.moto{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+  margin-top: 200rpx;
+}
+.btn1{
+  width: 100rpx;
+  border-radius: 98rpx;
+  background: #E6F3F9;
+  margin-top: 350rpx;
+}
+.btn2{
+  width: 100rpx;
+  border-radius: 98rpx;
+  background: #E6F3F9;
+  margin-top: 10rpx;
+}
+.ad{
+  margin-top: 209rpx;
+}
+
+.canvas {
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+}

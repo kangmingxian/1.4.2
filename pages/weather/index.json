@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "查天气",
+    "enablePullDownRefresh": true,
+    "disableScroll": false,
+    "onReachBottomDistance": 10
+}

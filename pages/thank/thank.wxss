@@ -1,0 +1,7 @@
+/* pages/thank/thank.wxss */
+.tk{
+  margin-left: 20rpx;
+}
+.title{
+  font-weight: bold;
+}

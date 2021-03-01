@@ -1,0 +1,6 @@
+
+<view class="moto" bindtap='getdata'>{{moto}}</view>
+<button class="btn1" open-type="feedback" >反馈与建议</button>
+<button class="btn2" bindtap="gotoThank">致谢与说明</button>
+<canvas style="position:absolute;bottom:0px;left:0px;z-index:-1;"  canvas-id="canvas" class="canvas"></canvas> 
+

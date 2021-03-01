@@ -1,0 +1,28 @@
+/* pages/maps.wxss */
+
+
+
+.section{width: 100%;position:absolute;top:20px;}
+
+.text_box{margin: 10px 25px;border-bottom:1px solid #c3c3c3;padding-bottom:10px}
+.containerm{position: absolute;z-index:-1;top: 0;bottom: 0;left: 0;right: 0;}
+
+.containerm .wrapper{width:95%;height:50px;margin:20px auto 0;background:#ffffff;border-radius: 5px;border:1px solid #e7e7e7}
+.containerm .admin{width:35px;height:35px;margin:6px;display:inline-block;float:left;}
+
+.containerm .input{width:50%;float:left;height:50px;line-height:50px;color:#666;font-size:16px;}
+
+.containerm .text{width:20%;height:50px;line-height:50px;float:right;text-align:right;font-size:16px;color:#666;padding-right:10px;}
+
+.containerm .rest{width:42px;height:42px;border-radius: 50%;position:absolute;bottom:40px;right:30px;background:#fff;border:1px solid #e7e7e7}
+.containerm .restimg{width:30px;height:30px;margin:6px auto;}
+
+.containerm .share{width:42px;height:42px;border-radius: 50%;position:absolute;bottom:40px;right:30px;background:#fff;}
+
+.containerm .shareimg{width:30px;height:30px;margin:0 0 auto 0px;}
+
+.containerm .loadline{width:68px;height:68px;border-radius: 50%;position:absolute;bottom:100px;right:18px;background:#4188fe;}
+.containerm .loadlineimg{width:32px;height:32px;margin:6px auto 2px;}
+.containerm .loadlinetext{text-align:center;color:#fff;font-size:16px;}
+
+

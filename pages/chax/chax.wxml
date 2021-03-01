@@ -1,0 +1,9 @@
+<view class="container1">
+<view class="header">
+<image  class="plus" src="/images/search2.png" />
+<input class="new-todo" type="text" bindinput="pushIpt" placeholder='请输入大学名称如：西北工业大学' bindchange="btnGet" /></view> 
+<view class="message" wx:for="{{getArr}}"  >{{item.message}}</view>
+</view>
+
+
+
